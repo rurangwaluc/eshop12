@@ -1,0 +1,189 @@
+/**
+ * border radius
+ */
+
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+/* cart badge */
+
+.cart-badge,
+.cart-badge:hover {
+  border-radius: 50%;
+  padding: 2px;
+  font-size: 12px;
+  font-style: italic;
+  background: #000;
+}
+
+.cart-icon {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+
+}
+
+.shopping-icon {
+  width: 24px;
+  height: 24px;
+
+
+}
+
+#fav {
+  width: 4rem;
+  height: 4rem;
+}
+
+#m {
+  width: 60%;
+  margin-top: 20px;
+  margin: auto;
+  color: rgb(171, 205, 214);
+}
+
+/**
+  * single product page - product name
+  */
+
+.name {
+  background: indigo;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* black shade form 10-1 */
+.black-10 {
+  background: #b4b2b2;
+}
+
+.black-9 {
+  background: #918e8e;
+}
+
+.black-8 {
+  background: #999696;
+}
+
+.black-7 {
+  background: #837e7e;
+}
+
+.black-6 {
+  background: #615d5d;
+}
+
+.black-5 {
+  background: #b3b3b3;
+}
+
+/**
+  * product image on card
+  */
+
+.product-img {
+  min-height: 100px;
+}
+
+.jumbotron h2 {
+  margin-top: -20px;
+}
+
+@media only screen and (max-width: 500px) {
+
+
+  #h {
+    text-align: none;
+    width: 100%;
+    height: 15rem
+  }
+}
+
+#nav1 {
+  float: right;
+}
+
+#m {
+  margin-bottom: 11rem;
+}
+
+#h {
+  width: 38%;
+
+}
+
+#bt {
+  border-radius: 10px;
+  box-shadow: 6px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+#w {
+
+  height: 250px;
+}
+
+s
+/**
+  * jumbotron animation
+  */
+
+.jumbotron {
+  height: 180px;
+  color: #fff;
+  background: linear-gradient(-45deg, #c45331, #e73c7e, #235bd5, #23d591);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
